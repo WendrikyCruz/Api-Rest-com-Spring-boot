@@ -18,14 +18,14 @@ Retorna um Json com todos os clientes do banco.
 - Requisição do Tipo GET;
 - URI: http://localhost:8080/cliente/porId/Id_cliente;
 
-Retorna um Json com o clientes do respectivo Id.
+Retorna um Json com o cliente do respectivo Id.
 
 ##### Cadastrar Cliente
 
 - Requisição do Tipo POST;
 - URI: http://localhost:8080/cliente/cadastrar;
 
-- Passar cliente como paremetro em Json no corpo da requisição, Exemplo:
+- Passar cliente como parametro em Json no corpo da requisição, Exemplo:
 
 ```javascript
 {
@@ -42,7 +42,7 @@ Retorna um Json com o cliente cadastrado indicando o sucesso da operação.
 - Requisição do Tipo PUT;
 - URI: http://localhost:8080/cliente/atualizar;
 
-- Passar cliente como paremetro em Json no corpo da requisição, Exemplo:
+- Passar cliente como parametro em Json no corpo da requisição, Exemplo:
 
 ```javascript
 {
